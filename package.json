@@ -1,0 +1,45 @@
+{
+  "name": "react-meonode",
+  "version": "0.1.0",
+  "scripts": {
+    "watch:meonode-ui": "yarn dlx concurrently \"yarn watch:core\" \"yarn watch:mui\"",
+    "watch:core": "nodemon --watch $HOME/Projects/JS/@meonode/core/dist --ext ts,js,json --exec \"yarn add @meonode/ui@file:$HOME/Projects/JS/@meonode/core\"",
+    "watch:mui": "nodemon --watch $HOME/Projects/JS/@meonode/mui/dist --ext ts,js,json --exec \"yarn add @meonode/mui@file:$HOME/Projects/JS/@meonode/mui\"",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@meonode/mui": "^1.0.0",
+    "@meonode/ui": "^0.1.14",
+    "@mui/material": "^7.1.0",
+    "lodash": "^4.17.21",
+    "next": "15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/lodash": "^4.17.16",
+    "@types/node": "^22.15.19",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "eslint-config-next": "15.3.2",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^16.1.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "packageManager": "yarn@4.9.1"
+}
