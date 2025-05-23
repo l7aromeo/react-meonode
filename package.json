@@ -13,8 +13,8 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@meonode/mui": "^1.0.2",
-    "@meonode/ui": "^0.1.21",
+    "@meonode/mui": "^1.0.4",
+    "@meonode/ui": "^0.1.22",
     "@mui/material": "^7.1.0",
     "@reduxjs/toolkit": "^2.8.2",
     "lodash": "^4.17.21",
