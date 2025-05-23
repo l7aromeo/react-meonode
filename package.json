@@ -13,20 +13,22 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@meonode/mui": "^1.0.1",
-    "@meonode/ui": "^0.1.16",
+    "@meonode/mui": "^1.0.2",
+    "@meonode/ui": "^0.1.21",
     "@mui/material": "^7.1.0",
+    "@reduxjs/toolkit": "^2.8.2",
     "lodash": "^4.17.21",
     "next": "15.3.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/postcss": "^4.1.7",
-    "@types/lodash": "^4.17.16",
-    "@types/node": "^22.15.19",
-    "@types/react": "^19.1.4",
+    "@types/lodash": "^4.17.17",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "@typescript-eslint/parser": "^8.32.1",
     "eslint": "^9.27.0",
