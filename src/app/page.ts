@@ -10,6 +10,8 @@ import { Modal } from '@src/components/portals'
 import { textFieldSX } from '@src/constants/field.const'
 import { enqueueSnackbar } from 'notistack'
 import { useEffect, useState } from 'react'
+import JSXSample from '@src/components/JSXSample'
+import { ViewList } from '@mui/icons-material'
 
 export default Component(function Home() {
   const dispatch = useAppDispatch()
@@ -59,12 +61,13 @@ export default Component(function Home() {
   return Root({
     theme: theme.colors,
     background: 'theme.background',
-    color: 'theme.danger',
+    color: 'theme.secondary',
     children: Column({
       flex: 1,
       padding: 10,
       gap: 10,
       children: [
+        Node(JSXSample, { name: 'Romeo' }), // Example of wrapping JSX component with Node instance
         Center({
           children: MuiSwitch({
             checked: theme.mode === 'dark',
@@ -76,6 +79,7 @@ export default Component(function Home() {
           variant: 'contained',
           onClick: showModal,
           children: 'Show Modal',
+          endIcon: Node(ViewList).render(),
         }),
         Button({
           sx: buttonSX.success,
@@ -192,7 +196,7 @@ const DetailComponent = ({ info }: { info: string }) => {
  * Similar to DetailComponent but demonstrates HOC pattern.
  * Theme context is correctly propagated through the HOC.
  */
-const WrappedDetailComponent = Component(({ info }) => {
+const WrappedDetailComponent = Component<{ info: string }>(({ info }) => {
   useEffect(() => {
     console.log('DetailComponent mounted')
     return () => {
