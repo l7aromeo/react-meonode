@@ -681,13 +681,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@meonode/ui@npm:^0.1.79":
-  version: 0.1.79
-  resolution: "@meonode/ui@npm:0.1.79"
+"@meonode/ui@npm:^0.1.80":
+  version: 0.1.80
+  resolution: "@meonode/ui@npm:0.1.80"
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 10c0/079024b9498085ce640a452ed2854f8cb08e14e1e6ba0f7d88afbc6bb5eee5a7581fe3aacd81d03ffd0933201c20eda609a8df56a70149ccc300d2b46dc0e077
+  checksum: 10c0/5a44c28d705a8800586de009e295f5d845fb3c3767f6b1ac08c56853cbc4607f36761b4b523e038bbe0d98465b061d20fa0aa990ca95bac433e6bf04177933fd
   languageName: node
   linkType: hard
 
@@ -4048,7 +4048,7 @@ __metadata:
     "@emotion/styled": "npm:^11.14.1"
     "@eslint/eslintrc": "npm:^3.3.1"
     "@meonode/mui": "npm:^1.0.5"
-    "@meonode/ui": "npm:^0.1.79"
+    "@meonode/ui": "npm:^0.1.80"
     "@mui/icons-material": "npm:^7.2.0"
     "@mui/material": "npm:^7.2.0"
     "@reduxjs/toolkit": "npm:^2.8.2"
