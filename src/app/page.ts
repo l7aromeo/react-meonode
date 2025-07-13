@@ -13,7 +13,7 @@ import { useEffect, useState } from 'react'
 import JSXSample from '@src/components/JSXSample'
 import { ViewList } from '@mui/icons-material'
 
-export default Component(function Home() {
+export default function Home() {
   const dispatch = useAppDispatch()
   const theme = useTheme()
 
@@ -163,8 +163,8 @@ export default Component(function Home() {
         // }), // ❌ Fails: Direct call to a component function using hooks inside render logic without a React-aware wrapper.
       ],
     }),
-  })
-})
+  }).render()
+}
 
 /**
  * Styled detail section component returning a Node instance.
