@@ -4,7 +4,7 @@ import { useTheme } from '@src/hooks/useTheme'
 import { Button, TextField } from '@meonode/mui'
 import { buttonSX, buttonTextSX } from '@src/constants/button.const'
 import MuiSwitch from '@src/components/MuiSwitch'
-import { setTheme } from '@src/redux/slice/theme.slice'
+import { setTheme, toggleTheme } from '@src/redux/slice/theme.slice'
 import { useAppDispatch } from '@src/redux/store'
 import { Modal } from '@src/components/portals'
 import { textFieldSX } from '@src/constants/field.const'
@@ -71,7 +71,7 @@ export default function Home() {
         Center({
           children: MuiSwitch({
             checked: theme.mode === 'dark',
-            onChange: () => dispatch(setTheme(theme.mode === 'dark' ? 'light' : 'dark')),
+            onChange: () => dispatch(toggleTheme()),
           }),
         }),
         Button({
