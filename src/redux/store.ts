@@ -31,4 +31,4 @@ export type AppDispatch = ReturnType<typeof initializeStore>['dispatch']
 export const useAppDispatch = useDispatch.withTypes<AppDispatch>()
 export const useAppSelector = useSelector.withTypes<RootState>()
 
-export const ReduxProviderWrapper = ({ store, ...props }: Omit<NodeProps<typeof Provider>, 'store'> & { store?: Store }) => Node(Provider, { ...props, store })
+export const ReduxProviderWrapper = ({ store, ...props }: Omit<NodeProps<typeof Provider>, 'store'> & { store: Store }) => Node(Provider, { ...props, store })
