@@ -11,8 +11,8 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@meonode/mui": "^1.0.60",
-    "@meonode/ui": "^0.2.9",
+    "@meonode/mui": "^1.0.61",
+    "@meonode/ui": "^0.2.10",
     "@mui/icons-material": "^7.3.2",
     "@mui/material": "^7.3.2",
     "@mui/system": "^7.3.2",
