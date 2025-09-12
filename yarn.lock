@@ -735,13 +735,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@meonode/mui@npm:^1.0.64":
-  version: 1.0.64
-  resolution: "@meonode/mui@npm:1.0.64"
+"@meonode/mui@npm:^1.0.65":
+  version: 1.0.65
+  resolution: "@meonode/mui@npm:1.0.65"
   peerDependencies:
     "@emotion/react": ^11.14.0
     "@emotion/styled": ^11.14.1
-    "@meonode/ui": ^0.2.14
+    "@meonode/ui": ^0.2.15
     "@mui/lab": ^7.0.0-beta.17
     "@mui/material": ^7.3.2
     "@mui/system": ^7.3.2
@@ -756,20 +756,20 @@ __metadata:
     "@mui/x-tree-view": ^8.11.2
     "@mui/x-tree-view-pro": ^8.11.2
     react: ">=18.3.1"
-  checksum: 10c0/90dd6cab3b4a88f0439bfb23351c97614322252e222ed6e76d5aa364bace458ed8f76598e3c8fd29da539c4e7020ec2554ab2ee10f7d144647a46f227f1c1683
+  checksum: 10c0/542e485c6301216b636e817c370af95fabd3bdbd3ccaa73848c1a1cca408d631c7dcec61070f51835d97e825f0370b469533c0f5262b6bb7a027523bad48438e
   languageName: node
   linkType: hard
 
-"@meonode/ui@npm:^0.2.14":
-  version: 0.2.14
-  resolution: "@meonode/ui@npm:0.2.14"
+"@meonode/ui@npm:^0.2.15":
+  version: 0.2.15
+  resolution: "@meonode/ui@npm:0.2.15"
   dependencies:
     "@emotion/react": "npm:^11.14.0"
   peerDependencies:
     "@emotion/cache": ">=11.14.0"
     react: ">=18.3.1"
     react-dom: ">=18.3.1"
-  checksum: 10c0/6fadf08ce204ad1d8f5fd4c94c961d0d17c3bfa2b937f75eb76c98a38cdeb24feb5774abb5f3901ad9c3863440b4a64805cbf053e575a9060fdd18f8de56524a
+  checksum: 10c0/ce539e704f13359efbe60527f75ac3aa07d6e34224781a58069c9c7c2fa9d0f825e92ea27d3b0daad794a10e50b855ef759bd4e7f9cb927db25a26d003b754ee
   languageName: node
   linkType: hard
 
@@ -4131,8 +4131,8 @@ __metadata:
     "@emotion/react": "npm:^11.14.0"
     "@emotion/styled": "npm:^11.14.1"
     "@eslint/eslintrc": "npm:^3.3.1"
-    "@meonode/mui": "npm:^1.0.64"
-    "@meonode/ui": "npm:^0.2.14"
+    "@meonode/mui": "npm:^1.0.65"
+    "@meonode/ui": "npm:^0.2.15"
     "@mui/icons-material": "npm:^7.3.2"
     "@mui/material": "npm:^7.3.2"
     "@mui/system": "npm:^7.3.2"
